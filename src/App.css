@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+h1 section {
+  margin: 0;
+  padding: 0;
+}
