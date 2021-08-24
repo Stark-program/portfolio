@@ -1,39 +1,46 @@
 .App {
+  background-color: lightblue;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: lightgreen;
+}
+.column-wrapper {
+  height: 100vh;
+  /* justify-content: center;
+  align-items: center; */
+}
+.h1 {
+  display: block;
+  margin: 0;
+  margin-bottom: 0;
+}
+.under-title-btns {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  margin: 0.5px;
+}
+Row Col .col-1 {
+  background-color: black;
+}
+#col-1,
+#col-2,
+#col-3 {
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#col-1 {
+  background-color: lightsalmon;
 }
-
-.blue {
-  background-color: blue;
+#col-2 {
+  background-color: magenta;
 }
-.red {
-  background-color: red;
-}
-.section {
-  height: 100%;
-}
-
-.section-Container {
-  width: 250px;
-  margin: 10px;
-}
-.text-container {
-  position: relative;
-  height: 100%;
-}
-
-.svg-container {
-  width: 100%;
-}
-.svgWave {
-  display: block;
-}
-p {
-  margin: 0;
+#col-3 {
+  background-color: maroon;
 }
