@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Row className="column-wrapper">
         <Col xs={{ span: 24 }} md={{ span: 8 }} id="col-1">
-          <h1>StarkProgramming</h1>
+          <h1 className="portfolio-header">StarkProgramming</h1>
           <div>
             <button className="under-title-btns">About</button>
             <button className="under-title-btns">Contact</button>
